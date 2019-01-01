@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-from exception import ResponseException
+from exception import *
 
 
 def get_webpage(champion):
@@ -14,26 +14,36 @@ def get_webpage(champion):
 
 
 def get_counter_champions(page):
-    # Parses the webpage to find the counter champions
+    # Parses the LoLProfile champion webpage to find the counter champions
 
     soup = BeautifulSoup(page.text, 'html.parser')
 
-    print(soup.find_all(class_='wa'))
-
     weak_against = soup.find_all(class_='wa')
 
+    print_n_champions(weak_against, 5) # print top 10 counters
+
+    return weak_against
+
+
+def print_n_champions(weak_against, n):
     i = 0
     for champion in weak_against:
-        if i == 10:
+        if i == n:
             break
 
-        champion_info = champion.text.split()
-        del champion_info[-2:]  # removes the win % and number of games
+        try:
+            champion_info = champion.text.split()
+            del champion_info[-2:]  # removes the win % and number of games
 
-        champion_name = " ".join(champion_info)
+            champion_name = " ".join(champion_info)
 
-        print(champion_name)
+            print(champion_name)
+        except ParseException:
+            print("Problem parsing the champion name from the weak_against array.")
+
         i += 1
+
+    return
 
 
 def check_status(http_code):

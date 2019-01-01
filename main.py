@@ -1,8 +1,7 @@
-from webpage import *
 from exception import ChampionException
+from webpage import *
+import json
 
-
-# TODO: Write JSON file with champion names and their lanes
 # TODO: Test new functions (test reading from json, test refactored functions)
 # TODO: Find closest champion name to string input using difflib
 
@@ -13,6 +12,14 @@ def main():
     webpage = get_webpage(champion)
 
     get_counter_champions(webpage)
+
+    with open('champion_lanes.json') as f:
+        lanes = json.load(f)
+
+    print(lanes["aatrox"]) # gets the lanes aatrox can be played in ["top", "mid", "jungle"]
+
+    if "mid" in lanes["karthus"]:
+        print("found")
 
 
 def get_input():

@@ -4,3 +4,6 @@ class ChampionException(Exception):
 
 class ResponseException(Exception):
     pass
+
+class ParseException(Exception):
+    pass

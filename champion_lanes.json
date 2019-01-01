@@ -1,0 +1,480 @@
+{
+  "aatrox": [
+    "top",
+    "mid",
+    "jungle"
+  ],
+  "ahri": [
+    "mid"
+  ],
+  "akali": [
+    "top",
+    "mid"
+  ],
+  "alistar": [
+    "supp"
+  ],
+  "amumu": [
+    "jungle"
+  ],
+  "anivia": [
+    "mid"
+  ],
+  "annie": [
+    "mid",
+    "supp"
+  ],
+  "ashe": [
+    "adc"
+  ],
+  "aurelion sol": [
+    "mid"
+  ],
+  "azir": [
+    "mid"
+  ],
+  "bard": [
+    "supp"
+  ],
+  "blitzcrank": [
+    "supp"
+  ],
+  "brand": [
+    "mid",
+    "supp"
+  ],
+  "braum": [
+    "supp"
+  ],
+  "caitlyn": [
+    "adc"
+  ],
+  "camille": [
+    "jungle"
+  ],
+  "cassiopeia": [
+    "top",
+    "mid"
+  ],
+  "chogath": [
+    "top",
+    "jungle",
+    "mid"
+  ],
+  "corki": [
+    "mid",
+    "adc"
+  ],
+  "darius": [
+    "top"
+  ],
+  "diana": [
+    "mid"
+  ],
+  "dr mundo": [
+    "top",
+    "jungle"
+  ],
+  "draven": [
+    "adc"
+  ],
+  "ekko": [
+    "top",
+    "mid"
+  ],
+  "elise": [
+    "jungle"
+  ],
+  "evelynn": [
+    "jungle"
+  ],
+  "ezreal": [
+    "adc"
+  ],
+  "fiddlesticks": [
+    "jungle",
+    "supp"
+  ],
+  "fiora": [
+    "top"
+  ],
+  "fizz": [
+    "mid"
+  ],
+  "galio": [
+    "mid",
+    "top",
+    "supp"
+  ],
+  "gangplank": [
+    "top",
+    "mid"
+  ],
+  "garen": [
+    "top"
+  ],
+  "gnar": [
+    "top"
+  ],
+  "gragas": [
+    "jungle",
+    "supp",
+    "mid"
+  ],
+  "graves": [
+    "jungle"
+  ],
+  "hecarim": [
+    "jungle",
+    "top"
+  ],
+  "heimerdinger": [
+    "mid",
+    "top"
+  ],
+  "illaoi": [
+    "top"
+  ],
+  "irelia": [
+    "top",
+    "mid"
+  ],
+  "ivern": [
+    "jungle"
+  ],
+  "janna": [
+    "supp"
+  ],
+  "jarvan iv": [
+    "jungle"
+  ],
+  "jax": [
+    "top",
+    "jungle"
+  ],
+  "jayce": [
+    "top",
+    "mid"
+  ],
+  "jhin": [
+    "adc"
+  ],
+  "jinx": [
+    "adc"
+  ],
+  "kaisa": [
+    "adc"
+  ],
+  "kalista": [
+    "adc"
+  ],
+  "karma": [
+    "mid",
+    "support",
+    "top"
+  ],
+  "karthus": [
+    "top",
+    "jungle",
+    "mid",
+    "adc"
+  ],
+  "kassadin": [
+    "top",
+    "mid"
+  ],
+  "katarina": [
+    "mid"
+  ],
+  "kayle": [
+    "top"
+  ],
+  "kayn": [
+    "jungle"
+  ],
+  "kennen": [
+    "top",
+    "mid",
+    "supp"
+  ],
+  "khazix": [
+    "jungle"
+  ],
+  "kindred": [
+    "jungle"
+  ],
+  "kled": [
+    "top"
+  ],
+  "kogmaw": [
+    "adc"
+  ],
+  "leblanc": [
+    "mid"
+  ],
+  "lee sin": [
+    "jungle"
+  ],
+  "leona": [
+    "supp"
+  ],
+  "lissandra": [
+    "top",
+    "mid"
+  ],
+  "lucian": [
+    "adc"
+  ],
+  "lulu": [
+    "supp"
+  ],
+  "lux": [
+    "mid",
+    "supp"
+  ],
+  "malphite": [
+    "top"
+  ],
+  "malzahar": [
+    "mid"
+  ],
+  "maokai": [
+    "top",
+    "jungle"
+  ],
+  "master yi": [
+    "jungle"
+  ],
+  "miss fortune": [
+    "adc"
+  ],
+  "mordekaiser": [
+    "top",
+    "mid",
+    "adc"
+  ],
+  "morgana": [
+    "supp"
+  ],
+  "nami": [
+    "supp"
+  ],
+  "nasus": [
+    "top"
+  ],
+  "nautilus": [
+    "supp"
+  ],
+  "neeko": [
+    "mid",
+    "supp",
+    "jungle"
+  ],
+  "nidalee": [
+    "jungle"
+  ],
+  "nocturne": [
+    "jungle"
+  ],
+  "nunu": [
+    "jungle"
+  ],
+  "olaf": [
+    "top",
+    "jungle"
+  ],
+  "orianna": [
+    "mid"
+  ],
+  "ornn": [
+    "top"
+  ],
+  "pantheon": [
+    "jungle"
+  ],
+  "poppy": [
+    "top",
+    "jungle"
+  ],
+  "pyke": [
+    "supp"
+  ],
+  "quinn": [
+    "top",
+    "adc"
+  ],
+  "rakan": [
+    "supp"
+  ],
+  "rammus": [
+    "jungle"
+  ],
+  "reksai": [
+    "jungle"
+  ],
+  "renekton": [
+    "top"
+  ],
+  "rengar": [
+    "top",
+    "jungle"
+  ],
+  "riven": [
+    "top",
+    "mid"
+  ],
+  "rumble": [
+    "top"
+  ],
+  "ryze": [
+    "top",
+    "mid"
+  ],
+  "sejuani": [
+    "jungle"
+  ],
+  "shaco": [
+    "jungle"
+  ],
+  "shen": [
+    "top",
+    "supp"
+  ],
+  "shyvana": [
+    "jungle"
+  ],
+  "singed": [
+    "top"
+  ],
+  "sion": [
+    "top"
+  ],
+  "sivir": [
+    "adc"
+  ],
+  "skarner": [
+    "jungle"
+  ],
+  "sona": [
+    "supp"
+  ],
+  "soraka": [
+    "supp"
+  ],
+  "swain": [
+    "top",
+    "mid"
+  ],
+  "syndra": [
+    "mid"
+  ],
+  "tahm kench": [
+    "supp"
+  ],
+  "taliyah": [
+    "mid"
+  ],
+  "talon": [
+    "mid"
+  ],
+  "taric": [
+    "supp"
+  ],
+  "teemo": [
+    "top"
+  ],
+  "thresh": [
+    "supp"
+  ],
+  "tristana": [
+    "adc"
+  ],
+  "trundle": [
+    "jungle"
+  ],
+  "tryndamere": [
+    "top"
+  ],
+  "twisted fate": [
+    "mid"
+  ],
+  "twitch": [
+    "adc",
+    "jungle"
+  ],
+  "udyr": [
+    "jungle"
+  ],
+  "urgot": [
+    "top"
+  ],
+  "varus": [
+    "adc"
+  ],
+  "vayne": [
+    "adc"
+  ],
+  "veigar": [
+    "mid"
+  ],
+  "velkoz": [
+    "mid",
+    "supp"
+  ],
+  "vi": [
+    "jungle"
+  ],
+  "viktor": [
+    "top",
+    "mid"
+  ],
+  "vladimir": [
+    "top",
+    "mid"
+  ],
+  "volibear": [
+    "jungle"
+  ],
+  "warwick": [
+    "jungle"
+  ],
+  "wukong": [
+    "jungle"
+  ],
+  "xayah": [
+    "adc"
+  ],
+  "xerath": [
+    "mid",
+    "supp"
+  ],
+  "xin zhao": [
+    "jungle"
+  ],
+  "yasuo": [
+    "top",
+    "mid"
+  ],
+  "yorick": [
+    "top"
+  ],
+  "zac": [
+    "jungle"
+  ],
+  "zed": [
+    "mid"
+  ],
+  "ziggs": [
+    "mid"
+  ],
+  "zilean": [
+    "mid",
+    "supp"
+  ],
+  "zoe": [
+    "mid"
+  ],
+  "zyra": [
+    "supp"
+  ]
+}
