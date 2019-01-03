@@ -47,7 +47,7 @@ def print_n_champions(weak_against, n, lane):
 
             print(champion_name)
         except ParseException:
-            print("Problem parsing the champion name from the weak_against array.")
+            print("Problem extracting the champion name.")
 
         i += 1
 

@@ -1,9 +1,5 @@
-from exception import ChampionException
 from webpage import *
-import json
-
-# TODO: Test new functions (test reading from json, test refactored functions)
-# TODO: Find closest champion name to string input using difflib
+from champions import *
 
 
 def main():
@@ -15,24 +11,17 @@ def main():
 
 
 def get_input():
-    lanes = ["top", "jungle", "mid", "adc", "supp"]
-
     while True:
+        input_champion = str(input("Enter a champion name: ")).replace(" ", "")
+        input_lane = str(input("Enter lane (top, jungle, mid, adc or supp): "))
+
         try:
-            champion = str(input("Enter a champion name: ")).replace(" ", "")
-            lane = str(input("Enter lane (top, jungle, mid, adc, supp): "))
-
-            if not champion.isalpha():
-                raise ChampionException
-
-            if lane not in lanes:
-                print("Invalid lane, did you spell it correctly?")
-                continue
-            else:
-                break
-
-        except ChampionException:
-            print("Champion names must contain letters and spaces only!")
+            champion = get_closest_champion(input_champion)
+            lane = get_closest_lane(input_lane)
+            break
+        except IndexError:
+            print("Couldn't find any matches to those inputs, try again..")
+            continue
 
     return champion, lane
 
